@@ -9,10 +9,10 @@ const Chunk: React.StatelessComponent<IChunk> = props => {
         position: "absolute",
         border: "1px dotted black",
         fontSize: 10,
-        top: y,
-        left: x,
-        width,
-        height
+        top: y + "%",
+        left: x + "%",
+        width: width + "%",
+        height: height + "%"
       }}
     >
       x: {x}, y: {y}, width: {width}, height: {height}

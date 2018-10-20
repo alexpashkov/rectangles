@@ -1,4 +1,4 @@
-export interface ICoords {
+export interface IPoint {
   x: number;
   y: number;
 }

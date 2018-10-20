@@ -1,4 +1,4 @@
-import { ICoords } from "./ICoords";
+import { IPoint } from "./IPoint";
 import { IRect } from "./IRect";
 
-export interface IChunk extends IRect, ICoords {}
+export interface IChunk extends IRect, IPoint {}
